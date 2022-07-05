@@ -57,6 +57,7 @@ See [riscv-platform-specs](https://github.com/riscv/riscv-platform-specs)
     - Machine       (M-mode)                            (highest privileges)
 
     > 这里不包括hypervisor支持的virtualized模式
+    >
     > 存在特权级别更高的（Debug）模式：仅在调试端口已连接并启用时进入，具有单独的状态保存CSR，但在其他方面很像M-mode
 
 * 支持的特权模式组合：
